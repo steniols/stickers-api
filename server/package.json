@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon",
-    "test": "(dropdb --if-exists test-stickers-crud && createdb test-stickers-crud) && NODE_ENV=test mocha --exit",
+    "test": "(dropdb --if-exists test-stickers && createdb test-stickers) && NODE_ENV=test mocha --exit",
     "knex": "knex"
   },
   "dependencies": {
