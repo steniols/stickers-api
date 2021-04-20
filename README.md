@@ -47,8 +47,52 @@ cd server
 npm run dev
 ```
 
-## URLs disponiveis
-Lista de stickers:
+## Ações disponiveis
+
+Lista de stickers
+
+```bash
+curl -X GET \
+  http://localhost:3000/api/v1/stickers \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: 6125873e-578b-21f2-8418-d468bc9f9876'
 ```
-http://localhost:3000/api/v1/stickers
+
+Cria um novo registro
+
+```bash
+curl -X POST \
+  http://localhost:3000/api/v1/stickers/ \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 34e93d55-0b27-608d-e90c-8d39f0da5666' \
+  -d '  {
+    "title": "node",
+    "description": "node.js logo",
+    "rating": 7,
+    "url": "https://devstickers.com/assets/img/pro/71fi.png"
+  }'
+```
+
+Atualiza um registro
+```bash
+curl -X PUT \
+  http://localhost:3000/api/v1/stickers/10 \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 30aaf532-d723-c0a6-60ec-260ed9a58715' \
+  -d '{
+	"title": "node",
+	"description": "node.js logo",
+	"rating": 9,
+	"url": "https://devstickers.com/assets/img/pro/71fi.png"
+}'
+```
+
+Deleta um registro
+```bash
+curl -X DELETE \
+  http://localhost:3000/api/v1/stickers/10 \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: 4f33b999-9f32-dd01-900a-a3be5a3f6c63'
 ```

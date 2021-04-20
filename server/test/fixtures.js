@@ -64,6 +64,14 @@ const stickers = [
   },
 ];
 
+const sticker = {
+  title: "node",
+  description: "node.js logo",
+  rating: 7,
+  url: "https://devstickers.com/assets/img/pro/71fi.png",
+};
+
 module.exports = {
   stickers,
+  sticker,
 };
