@@ -49,7 +49,7 @@ npm run dev
 
 ## Ações disponiveis
 
-Lista de stickers
+Lista todos os registros
 
 ```bash
 curl -X GET \
