@@ -1,6 +1,6 @@
 # STICKERS API
 
-Uma simples API de Stickers utilizando [Express](https://github.com/expressjs/express), [Postgres](https://github.com/postgres/postgres), [Knex](https://github.com/knex/knex) e testes com [Mocha](https://github.com/mochajs/mocha), [Chai](https://github.com/chaijs/chai) e [Supertest(https://github.com/chaijs/chai).
+Uma simples API de Stickers utilizando [Express](https://github.com/expressjs/express), [Postgres](https://github.com/postgres/postgres), [Knex](https://github.com/knex/knex) e testes com [Mocha](https://github.com/mochajs/mocha), [Chai](https://github.com/chaijs/chai) e [Supertest](https://github.com/visionmedia/supertest).
 
 ## Instalação
 
