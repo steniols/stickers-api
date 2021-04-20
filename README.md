@@ -14,7 +14,7 @@ npm install
 ## Configurações do Banco de dados
 
 É necessário ter o PostgreSQL instalado, além de editar o arquivo 'knexfile.js' com suas configurações do banco de dados.
-Para este exemplo criei a tabela 'stickers-crud' com o comando:
+Para este exemplo criei a tabela *stickers* com o comando:
 ```
 createdb stickers
 ```
