@@ -1,6 +1,6 @@
 # STICKERS API
 
-Uma simples API de Stickers utilizando Express, Postgres, Knex e testes com Mocha, Chai e Supertest.
+Uma simples API de Stickers utilizando [example link](http://example.com/), Express, Postgres, Knex e testes com Mocha, Chai e Supertest.
 
 ## Instalação
 
@@ -13,7 +13,7 @@ npm install
 
 ## Configurações do Banco de dados
 
-É necessário ter o PostgreSQL instalado, além de editar o arquivo 'knexfile.js' com suas configurações do banco de dados.
+É necessário ter o PostgreSQL instalado, além de editar o arquivo `/server/knexfile.js` com suas configurações do banco de dados.
 Para este exemplo criei a tabela *stickers* com o comando:
 ```
 createdb stickers
