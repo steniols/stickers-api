@@ -18,7 +18,7 @@ Para este exemplo criei o banco de dados *stickers* com o comando:
 ```
 createdb stickers
 ```
-e criei esta role:
+No terminal do banco de dados criei esta *role* (que está sendo utilizada para o login):
 ```
 CREATE ROLE stickersuser WITH LOGIN PASSWORD '123456';
 GRANT ALL PRIVILEGES ON DATABASE "stickers" TO stickersuser;
