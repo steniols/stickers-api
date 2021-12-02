@@ -13,7 +13,7 @@ npm install
 
 ## Configurações do Banco de dados
 
-É necessário ter o Postgres instalado, além de editar o arquivo `/server/knexfile.js` com suas configurações do seu banco de dados.
+É necessário ter o Postgres instalado, além de editar o arquivo `/server/knexfile.js` com as configurações do seu banco de dados.
 Para este exemplo criei o banco de dados *stickers* com o comando:
 ```
 createdb stickers
